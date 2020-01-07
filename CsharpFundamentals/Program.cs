@@ -1,17 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-/*using statement*/
+using System;
 
-namespace HelloWorld
+namespace Iterations
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World");
-        }
-    }
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			var name = "John Smith";
+			
+			for (var i = 0; i <= name.Length; i++)
+			{
+				Console.WriteLine(name[i]);
+			}
+		}
+	}
 }
