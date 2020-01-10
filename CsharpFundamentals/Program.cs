@@ -1,21 +1,27 @@
 using System;
 
-namespace Conditionals
-{	
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			bool isGoldCustumer = true;
-			
-			float price;
-			
-			if (isGoldCustumer)
-			price = 19.95f
-			
-			else
-			price 29.95f;
-			
-			float price = (isGoldCustumer) ? 19.95f : 29.95f;
-		}
-}
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var season = Season.Autumn;
+            
+            switch(season)
+            {
+                case Season.Autumn:
+                    Console.WriteLine("It's autumn and a beautiful season.");
+                    break;
+                    
+                case Season.Autumn:
+                    Console.WriteLine("It's perfect to go to beach.");
+                    break;
+                    
+                default:
+                    Console.WriteLine("I don't understand that season!");
+                    break;
+            }
+        }
+    }
+ }
