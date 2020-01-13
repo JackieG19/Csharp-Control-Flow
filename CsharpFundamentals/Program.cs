@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-/*using statement*/
+using System;
 
 namespace HelloWorld
 {
@@ -11,7 +6,22 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            var season = Season.Autumn;
+            
+            switch(season)
+            {
+                case Season.Autumn:
+                    Console.WriteLine("It's autumn and a beautiful season.");
+                    break;
+                    
+                case Season.Autumn:
+                    Console.WriteLine("It's perfect to go to beach.");
+                    break;
+                    
+                default:
+                    Console.WriteLine("I don't understand that season!");
+                    break;
+            }
         }
     }
-}
+ }
