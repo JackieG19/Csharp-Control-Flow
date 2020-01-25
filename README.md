@@ -101,3 +101,6 @@ while(i <10);
 **Break and Continue**
 - break: jumps out of the loops
 - continue: jumps to the next itertion
+___
+
+Next -> [Arrays and Lists](https://github.com/JackieG19/Csharp-Arrays-and-Lists)
