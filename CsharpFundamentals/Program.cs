@@ -6,11 +6,11 @@ namespace Iterations
 	{
 		static void Main(string[] args)
 		{
-			var name = "John Smith";
+			var numbers = new int[] {1, 2, 3, 4};
 			
-			for (var i = 0; i <= name.Length; i++)
+			foreach(var number in numbers)
 			{
-				Console.WriteLine(name[i]);
+				Console.WriteLine(number);
 			}
 		}
 	}
