@@ -1,28 +1,26 @@
 using System;
 
-namespace Iterations
+namespace CsharpFundamentals
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{			
-// 			for (var i = 1; i < 10; i++)
-// 			{
-// 				{
-// 					if (i% 2 == 0)
-// 						Console.WriteLine(number);
-// 				}
-// 			}
-
-
- 			var i = 0;
- 			while(i < 10)
+ 			while(true)
  			{
- 				if (i % 2 == 0)
- 					Console.WriteLine(number);
- 				i++
+ 				Console.WriteLine("Type your name: ");
+ 				var input = Console.ReadLine();
+ 				
+ 				if(!String.IsNullOrWhiteSpace(input))
+ 				{
+ 					Console.WriteLine("@Echo: " + input);
+ 					continue;
+ 				}
+ 				
+ 				break;
  			}
 		}
 	}
 }
+
 
