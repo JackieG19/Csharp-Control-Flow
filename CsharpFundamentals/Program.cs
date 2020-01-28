@@ -1,6 +1,6 @@
 using System;
 
-namespace Iterations
+namespace CsharpFundamentals
 {
 	class Program
 	{
@@ -20,4 +20,7 @@ namespace Iterations
  				break;
  			}
 		}
-	
+	}
+}
+
+
